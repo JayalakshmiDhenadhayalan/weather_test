@@ -8,7 +8,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final locationprovider = Provider.of<WeatherController>((context));
-    final maxwidth=MediaQuery.of(context).size.width;
+  //  final maxwidth=MediaQuery.of(context).size.width;
     return Scaffold(
       body: Padding(
         padding:  EdgeInsets.symmetric(vertical: 15,horizontal: 20),
